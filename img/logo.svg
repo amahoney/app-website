@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1024px" height="1024px" viewBox="0 0 1024 1024" enable-background="new 0 0 1024 1024" xml:space="preserve">
+<path fill="#F7931F" d="M1024.875,841.321c0,100.891-81.928,182.679-182.991,182.679H182.116
+	C81.053,1024-0.875,942.212-0.875,841.321V182.679C-0.875,81.788,81.053,0,182.116,0h659.768
+	c101.063,0,182.991,81.788,182.991,182.679V841.321z"/>
+<polygon fill="#FFFFFF" points="525,231.471 0,160.471 0,356.634 524.995,279.269 "/>
+<g>
+	<polygon fill="#7596CE" points="912.709,901.312 528.687,904 525.813,904 137.5,902.041 245.779,794.158 525,794.959 525,794.23 
+		525.984,232 525.855,232 526.114,119.678 604.305,226.134 609,232.657 609,232.699 693.082,793.329 807.055,793.601 	"/>
+	<polygon fill="#577DBE" points="525.641,230 525,794.959 525,846 192.165,846 244.04,793.319 361.817,795.557 447.549,230 
+		446.991,230 525.641,123.075 525.896,230 	"/>
+	<polygon fill="#577DBE" points="686.925,792.852 692.113,846.494 859.1,845.627 805.457,793.283 	"/>
+	<polygon fill="#B4B4B4" points="609.055,232.657 604.333,226.221 608.108,226.263 	"/>
+	<polygon fill="#7596CE" points="701.733,850 525,850 525,794.23 692.703,792.914 	"/>
+</g>
+<polygon fill="#FFFFFF" points="525.896,231.471 1024.875,160.471 1024.875,356.634 525.901,279.269 "/>
+<rect x="-31" y="-27" fill="#F7931F" width="214" height="187.471"/>
+<rect x="813" y="-27" fill="#F7931F" width="310" height="187.471"/>
+<rect x="813" y="955" fill="#F7931F" width="310" height="86"/>
+<rect x="-31" y="846.494" fill="#F7931F" width="160" height="194.506"/>
+<rect x="87" y="1007" fill="#F7931F" width="134" height="44"/>
+<rect x="985" y="819.673" fill="#F7931F" width="120" height="163.327"/>
+</svg>

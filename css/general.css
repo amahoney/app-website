@@ -1,0 +1,172 @@
+body{
+	margin:0;
+	padding:0;
+
+}
+html{
+background-color: #e2eefe;
+
+}
+
+.dl{
+width:50%;
+
+}
+.video{
+width:90%;
+
+}
+
+.beacon{
+
+	width:40%;
+}
+footer,
+header{
+background-color: #000;
+color:#fff;
+padding:0;
+}
+
+.logo{
+
+	width:15%;
+	padding: 3%;
+
+}
+
+a{
+	text-decoration: none;
+	list-style-type: none;
+	font-family: "futura", sans-serif;
+	color:#000;
+	display: block;
+
+}
+
+
+
+}
+
+img{
+	width:100%;
+	min-height:50px;
+	display:block;
+	
+}
+
+
+
+
+
+.skiplinks{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	z-index:3000;
+	width:100%;
+	font-size: 1.25rem;
+	font-weight:bold;
+	list-style-type: none;
+
+
+
+}
+
+
+
+a:hover,
+a:active{
+	outline:none;
+	background-color:#fff;
+}
+
+
+
+a:focus{
+
+outline:2px solid #000;
+
+}
+
+
+
+
+
+
+.search{
+	float:right;
+	display:none;
+}
+
+h1{
+
+		font-family: "futura", sans-serif;
+	
+		font-weight: 300;
+		font-size: 1.4em;
+		padding-left: 5%;
+
+}
+
+p{
+	font-family: "futura", sans-serif;
+	padding:5%;
+	margin:0;
+	font-size:1em;
+}
+
+
+
+h2{
+	padding-left:5%;
+	font-family: "futura", sans-serif;
+	font-weight:500;
+	margin:0;
+	font-size:1.1em;
+	color:#000;
+	text-transform: uppercase;
+	
+}
+
+
+
+.flex-img{
+
+display:block;
+position:relative;
+
+width:100%;
+overflow:hidden;
+
+}
+
+
+
+@media only screen and (max-width: 38em) {
+
+
+
+}
+@media only screen and (min-width: 38em) and (max-width: 60em) {
+.info{
+	padding-top:35%;
+}
+
+p{
+	font-size:0.9em; 
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+
+html{
+	max-width:80%;
+margin-right:auto;
+margin-left: auto;
+
+}
+
+
+}
