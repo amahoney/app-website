@@ -12,9 +12,19 @@ background-color: #e2eefe;
 width:50%;
 
 }
-.video{
+.myvideo{
 width:90%;
 
+}
+
+.previous{
+width:20%;
+
+}
+.next
+{
+width:20%;
+float:right;
 }
 
 .beacon{
@@ -31,9 +41,40 @@ padding:0;
 .logo{
 
 	width:15%;
-	padding: 3%;
+padding:3%;
+
 
 }
+
+
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+.fade-in.one {
+	-webkit-animation-delay: 0.7s;
+	-moz-animation-delay: 0.7s;
+	animation-delay: 0.7s;
+}
+
+
 
 a{
 	text-decoration: none;
@@ -52,11 +93,68 @@ img{
 	width:100%;
 	min-height:50px;
 	display:block;
-	
+
 }
 
 
 
+.icons-section{
+	background-color: #000;
+
+}
+
+.icons{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+	text-align:center;
+
+}
+
+
+.icons li{
+	display:inline-block;
+	margin: 2rem;
+}
+
+.icons img {
+	width: 120px;
+	opacity:1;
+
+	-webkit-transform: translateY(140px);
+}
+
+@-webkit-keyframes ship-fly {
+	0%{
+		opacity:0;
+		-webkit-transform: translateY(140px);
+	}
+			40%{
+		opacity:1;
+		}
+
+			100%{
+		opacity:1;
+		-webkit-transform: translateY(0);
+		}
+
+}
+
+
+
+.js-ships-animate {
+-webkit-animation: ship-fly 1s ease-out 1 forwards;
+}
+
+.js-ship-delay-1 {
+	-webkit-animation-delay: 100ms
+}
+.js-ship-delay-2 {
+	-webkit-animation-delay: 200ms
+}
+.js-ship-delay-3 {
+	-webkit-animation-delay: 250ms
+}
 
 
 .skiplinks{
@@ -102,7 +200,7 @@ outline:2px solid #000;
 h1{
 
 		font-family: "futura", sans-serif;
-	
+
 		font-weight: 300;
 		font-size: 1.4em;
 		padding-left: 5%;
@@ -126,7 +224,7 @@ h2{
 	font-size:1.1em;
 	color:#000;
 	text-transform: uppercase;
-	
+
 }
 
 
@@ -142,6 +240,69 @@ overflow:hidden;
 }
 
 
+dialog{
+	border:2px solid #000;
+	border-radius:8px;
+	box-shadow:1px 1px 10px rgba(0,0,0,0.5);
+}
+
+dialog::backdrop {
+	background-color:rgba(0,0,0,0.5);
+}
+dialog + .backdrop {
+  background-color: rgba(0,0,0,0.5);
+}
+
+#btn-close{
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+	text-align: center;
+	line-height: 24px;
+	border: 2px solid #fff;
+	background-color: #000;
+	color: #fff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	font-weight:bold;
+	cursor:pointer;
+	position: absolute;
+	top:-16px;
+	right:-16px;
+
+}
+.carousel{
+padding-bottom: 52.63%; /*Image aspect ratio: height/width * 100 */
+position:relative;
+}
+
+.carousel-items img{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+}
+
+.carousel-items [data-state="current"]{
+	z-index:100;
+}
+
+
+.carousel-items [data-state="incoming"]{
+	z-index:101;
+}
+
+
+
+.carousel-buttons {
+	position:absolute;
+	z-index:1000;
+	width:100%;
+}
+
+
+
+
+
 
 @media only screen and (max-width: 38em) {
 
@@ -154,7 +315,7 @@ overflow:hidden;
 }
 
 p{
-	font-size:0.9em; 
+	font-size:0.9em;
 }
 
 }
