@@ -1,0 +1,20 @@
+[
+ {
+ 	"name": "Trex",
+ 	"period": "long-time-ago",
+ 	"diet": "carnivore"
+
+ },
+ {
+	"name": "allosaurus",
+ 	"period": "jurassic",
+ 	"diet": "herbivore"
+
+ },
+  {
+	"name": "diposaurus",
+ 	"period": "jurassic",
+ 	"diet": "carnivore"
+
+ }
+]
